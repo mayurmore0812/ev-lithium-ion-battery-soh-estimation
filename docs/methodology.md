@@ -1,5 +1,3 @@
-# Methodology
-
 ## 1. Methodology Overview
 
 This project focuses on estimating the State of Health (SOH) of EV lithium-ion batteries using battery charging data and machine learning techniques.
@@ -8,8 +6,26 @@ The methodology combines battery-domain understanding with data-driven modeling.
 
 The project was developed in two major stages:
 
+
 1. **Final Year Project Stage:** XGBoost-based SOH prediction using a custom SOH calculation methodology.
+
+I - SOH Calculation Block Diagram
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/7e94b4c4-cb2a-4c3d-8d63-639fe9bc425a" />
+
+
+II - ML XGBOOST Modeling Block Diagram 
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/6d552a7b-563d-4288-9f31-104b6f00b64f" />
+
+
+
 2. **Research Paper Stage:** LightGBM-based SOH estimation using large-scale EV battery charging data.
+
+III - ML LIGHTGBM Modeling Block Diagram 
+
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/69d35bbd-5e0a-496b-a3d4-9516b43f79d0" />
+
 
 ---
 
