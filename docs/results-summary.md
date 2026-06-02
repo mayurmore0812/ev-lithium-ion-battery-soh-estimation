@@ -67,9 +67,13 @@ The project compared actual SOH values with predicted SOH values to evaluate mod
 
 The actual vs predicted SOH analysis showed that the model predictions generally followed the actual SOH trend. Close alignment between actual and predicted values indicates that the model captured key degradation patterns in the battery data.
 
-![Actual SOH vs Predicted SOH](reports/figures/actual_soh-vs-predicted_soh.jpg)
+
+<img width="400" height="200" alt="actual_soh-vs-predicted_soh" src="https://github.com/user-attachments/assets/26ba0603-d62e-487f-9568-737ccfb4a92b" />
+
+Actual SOH vs Predicted SOH
 
 This plot compares the actual SOH values with predicted SOH values and helps evaluate model prediction accuracy.
+
 
 This comparison was useful for identifying:
 
@@ -96,6 +100,14 @@ Charge cycle trend analysis was used to observe how battery health changed over 
 
 The model output showed that predicted SOH followed the decreasing trend of actual SOH over charge cycles. This is important because a useful SOH prediction model should not only predict isolated values but also follow long-term battery degradation behavior.
 
+
+<img width="300" height="200" alt="charge-cycle-vs-actual_and_predicted" src="https://github.com/user-attachments/assets/c679b09c-0bd6-4d69-9a2d-41b081ec14cb" />
+
+Actual SOH vs Predicted SOH Degradation pattern
+
+This visualization shows how actual and predicted SOH change over battery charge cycles, helping interpret battery degradation behavior.
+
+
 This analysis supports the use of machine learning for predictive maintenance and battery health monitoring.
 
 ---
@@ -105,6 +117,13 @@ This analysis supports the use of machine learning for predictive maintenance an
 Polynomial regression curves were used to smooth and interpret actual and predicted SOH trends.
 
 This helped visualize the overall degradation pattern and compare whether the predicted SOH curve followed the actual SOH curve over time.
+
+<img width="300" height="200" alt="polynomial_regression _curve_actual-vs-predicted" src="https://github.com/user-attachments/assets/792a2063-be4f-4de1-8d84-5c1adef3da4a" />
+
+Polynomial Trend Curve
+
+This curve provides a smoothed representation of battery degradation trends over charge cycles.
+
 
 The trend analysis supported the conclusion that the model captured the general degradation trajectory of lithium-ion batteries.
 
