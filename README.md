@@ -12,6 +12,16 @@ The work focuses on battery diagnostic data analysis, SOH calculation methodolog
 
 ---
 
+# EV Lithium-Ion Battery State of Health Estimation using Machine Learning
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Battery%20SOH-blue)
+![Model](https://img.shields.io/badge/Models-XGBoost%20%7C%20LightGBM-green)
+![Domain](https://img.shields.io/badge/Domain-EV%20Battery%20Diagnostics-orange)
+![Status](https://img.shields.io/badge/Status-Research%20Documentation-lightgrey)
+![Code](https://img.shields.io/badge/Code-Private-red)
+
+---
+
 ## Documentation
 
 - [Methodology](docs/methodology.md)
