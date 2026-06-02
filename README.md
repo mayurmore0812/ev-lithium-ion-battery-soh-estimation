@@ -12,6 +12,14 @@ The work focuses on battery diagnostic data analysis, SOH calculation methodolog
 
 ---
 
+## Documentation
+
+- [Methodology](docs/methodology.md)
+- [Results Summary](docs/results-summary.md)
+- [Publication and Patent](docs/publication-and-patent.md)
+
+---
+
 ## Problem Statement
 
 Lithium-ion batteries degrade over time due to charge-discharge cycles, operating conditions, temperature variation, charging behavior, and usage patterns.
