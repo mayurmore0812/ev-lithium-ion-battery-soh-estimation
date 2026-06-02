@@ -67,6 +67,10 @@ The project compared actual SOH values with predicted SOH values to evaluate mod
 
 The actual vs predicted SOH analysis showed that the model predictions generally followed the actual SOH trend. Close alignment between actual and predicted values indicates that the model captured key degradation patterns in the battery data.
 
+![Actual SOH vs Predicted SOH](reports/figures/actual_soh-vs-predicted_soh.jpg)
+
+This plot compares the actual SOH values with predicted SOH values and helps evaluate model prediction accuracy.
+
 This comparison was useful for identifying:
 
 * Prediction accuracy
